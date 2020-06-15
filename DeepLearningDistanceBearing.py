@@ -219,7 +219,7 @@ class Network():
                     self.network['nb_neurons2']='N/A'
                     self.network['activation2']='N/A'               
     print(vessel,',', int(1000*(self.accuracy)),',', self.network['lstms'],',', self.network['units1'],',', self.network['implementation1'],',', self.network['lstm_activation1'],',', self.network['recurrent_activation1'],',', self.network['units2'],',', self.network['implementation2'],',', self.network['lstm_activation2'],',', self.network['recurrent_activation2'],',', self.network['nb_layers'],',', self.network['nb_neurons1'],',', self.network['activation1'],',', self.network['nb_neurons2'],',', self.network['activation2'],',', self.network['nb_neurons3'],',', self.network['activation3'],',', self.network['nb_neurons4'],',', self.network['activation4'],',', self.network['nb_neurons5'],',', self.network['activation5'],',', self.network['optimizer'],',',mytime, file=open(filename,'a'))
-    print(vessel,',', int(1000*(self.accuracy)),',', self.network['lstms'],',', self.network['units1'],',', self.network['implementation1'],',', self.network['lstm_activation1'],',', self.network['recurrent_activation1'],',', self.network['units2'],',', self.network['implementation2'],',', self.network['lstm_activation2'],',', self.network['recurrent_activation2'],',', self.network['nb_layers'],',', self.network['nb_neurons1'],',', self.network['activation1'],',', self.network['nb_neurons2'],',', self.network['activation2'],',', self.network['nb_neurons3'],',', self.network['activation3'],',', self.network['nb_neurons4'],',', self.network['activation4'],',', self.network['nb_neurons5'],',', self.network['activation5'],',', self.network['optimizer'],',',mytime, file=open(mypath+'Results/GeneticAngles/'+str(vessel)+'-'+str(sequence_begin_end[vessel][0])+'.txt','a'))
+    #print(vessel,',', int(1000*(self.accuracy)),',', self.network['lstms'],',', self.network['units1'],',', self.network['implementation1'],',', self.network['lstm_activation1'],',', self.network['recurrent_activation1'],',', self.network['units2'],',', self.network['implementation2'],',', self.network['lstm_activation2'],',', self.network['recurrent_activation2'],',', self.network['nb_layers'],',', self.network['nb_neurons1'],',', self.network['activation1'],',', self.network['nb_neurons2'],',', self.network['activation2'],',', self.network['nb_neurons3'],',', self.network['activation3'],',', self.network['nb_neurons4'],',', self.network['activation4'],',', self.network['nb_neurons5'],',', self.network['activation5'],',', self.network['optimizer'],',',mytime, file=open(mypath+'Results/GeneticAngles/'+str(vessel)+'-'+str(sequence_begin_end[vessel][0])+'.txt','a'))
 
 
 
@@ -387,7 +387,6 @@ def generate(generations, population, nn_param_choices, dataset):
 
   # Print out the top 5 networks.
   print_networks(networks[:1])
-  print_networks_file(networks[:1],sequence_begin_end[vessel])
   
 
 

@@ -10,15 +10,25 @@ pip install geopy
 2. Open TrajectoryPredictionLSTM.py and enter the path to the project folder.
 The code assumes the following structure:
 Project_Folder
+
 |
+
 |_Datasets
+
 | |
+
 | |_Demo.csv
+
 |
+
 |_Models
+
 |
+
 |_Conv2Ang.py
+
 |
+
 |_TrajectoryPredictionLSTM.py
 
 eg. if you copy the project files in /home/user/TrajectoryPrediction, the path variable should be '/home/user/TrajectoryPrediction/'

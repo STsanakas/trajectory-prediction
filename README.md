@@ -1,3 +1,3 @@
 # trajectory-prediction
 
-Code based on the [url=https://github.com/harvitronix/neural-network-genetic-algorithm]code by harvitronix[/url]
+Code based on the [code by harvitronix](https://github.com/harvitronix/neural-network-genetic-algorithm)

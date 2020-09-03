@@ -31,6 +31,19 @@ Project_Folder
 
 |_TrajectoryPredictionLSTM.py
 
+```bash
+
+├── TrajectoryPrediction
+│   ├── Conv2Ang.py
+│   ├── Datasets
+│   │   └── Demo.csv
+│   ├── Models
+│   │   └── bestLSTMnetworkGenetic.h5
+│   ├── __pycache__
+│   │   └── Conv2Ang.cpython-38.pyc
+│   └── TrajectoryPredictionLSTM.py
+```
+
 eg. if you copy the project files in /home/user/TrajectoryPrediction, the path variable should be '/home/user/TrajectoryPrediction/'
 
 3. Navigate to the Project Folder and run TrajectoryPredictionLSTM.py

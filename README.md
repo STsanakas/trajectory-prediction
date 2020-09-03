@@ -9,39 +9,15 @@ pip install geopy
 ```
 2. Open TrajectoryPredictionLSTM.py and enter the path to the project folder.
 The code assumes the following structure:
-Project_Folder
-
-|
-
-|_Datasets
-
-| |
-
-| |_Demo.csv
-
-|
-
-|_Models
-
-|
-
-|_Conv2Ang.py
-
-|
-
-|_TrajectoryPredictionLSTM.py
 
 ```bash
 
-├── TrajectoryPrediction
-│   ├── Conv2Ang.py
-│   ├── Datasets
-│   │   └── Demo.csv
-│   ├── Models
-│   │   └── bestLSTMnetworkGenetic.h5
-│   ├── __pycache__
-│   │   └── Conv2Ang.cpython-38.pyc
-│   └── TrajectoryPredictionLSTM.py
+Project_Folder
+├── Conv2Ang.py
+├── Datasets
+│   └── Demo.csv
+├── Models
+└── TrajectoryPredictionLSTM.py
 ```
 
 eg. if you copy the project files in /home/user/TrajectoryPrediction, the path variable should be '/home/user/TrajectoryPrediction/'

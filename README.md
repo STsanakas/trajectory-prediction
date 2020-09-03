@@ -19,7 +19,6 @@ Project_Folder
 ├── Models
 └── TrajectoryPredictionLSTM.py
 ```
-
 eg. if you copy the project files in /home/user/TrajectoryPrediction, the path variable should be '/home/user/TrajectoryPrediction/'
 
 3. Navigate to the Project Folder and run TrajectoryPredictionLSTM.py

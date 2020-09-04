@@ -17,6 +17,7 @@ Project_Folder
 ├── Datasets
 │   └── Demo.csv
 ├── Models
+│   └── bestLSTMnetworkGenetic.h5
 └── TrajectoryPredictionLSTM.py
 ```
 eg. if you copy the project files in /home/user/TrajectoryPrediction, the path variable should be '/home/user/TrajectoryPrediction/'
